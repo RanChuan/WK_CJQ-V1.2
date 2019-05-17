@@ -1,5 +1,5 @@
 Dependencies for Project 'WK_CJQ_V1_2', Target 'WK_CJQ_V1_2': (DO NOT MODIFY !)
-F (..\USER\main.c)(0x5CB9891F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\USER\main.c)(0x5CDCCE36)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\SOFTWARE\collect\collect.h)(0x5B60077E)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
 I (..\CORE\core_cm3.h)(0x5A5C7560)
@@ -80,7 +80,7 @@ I (..\STM32LIB\inc\stm32f10x_spi.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_tim.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_usart.h)(0x5A5C7560)
 I (..\STM32LIB\inc\misc.h)(0x5A5C7560)
-F (..\CORE\startup_stm32f10x_md.s)(0x5A5C7560)(--cpu Cortex-M3 -g --apcs=interwork -I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (..\CORE\startup_stm32f10x_md.s)(0x5CDCC9E6)(--cpu Cortex-M3 -g --apcs=interwork -I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
 F (..\STM32LIB\src\misc.c)(0x5A5C7560)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\STM32LIB\inc\misc.h)(0x5A5C7560)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
@@ -593,7 +593,7 @@ I (..\STM32LIB\inc\stm32f10x_spi.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_tim.h)(0x5A5C7560)
 I (..\STM32LIB\inc\stm32f10x_usart.h)(0x5A5C7560)
 I (..\STM32LIB\inc\misc.h)(0x5A5C7560)
-F (..\SOFTWARE\CMD\deal.c)(0x5CB98940)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\deal.o --omf_browse .\objects\deal.crf --depend .\objects\deal.d)
+F (..\SOFTWARE\CMD\deal.c)(0x5CDB7C98)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\deal.o --omf_browse .\objects\deal.crf --depend .\objects\deal.d)
 I (..\SOFTWARE\CMD\deal.h)(0x5CB83415)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SYSTEM\sys.h)(0x5A5D9804)
@@ -628,7 +628,7 @@ I (..\SOFTWARE\TVOC\kqm2801A.h)(0x5CB98981)
 I (..\SYSTEM\delay.h)(0x5A5C7560)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\SOFTWARE\DATA_MAP\data_map.h)(0x5CB830F4)
-F (..\SOFTWARE\collect\collect.c)(0x5CB989B4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\collect.o --omf_browse .\objects\collect.crf --depend .\objects\collect.d)
+F (..\SOFTWARE\collect\collect.c)(0x5CDCCEF3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\collect.o --omf_browse .\objects\collect.crf --depend .\objects\collect.d)
 I (..\SOFTWARE\collect\collect.h)(0x5B60077E)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
 I (..\CORE\core_cm3.h)(0x5A5C7560)
@@ -659,6 +659,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\SOFTWARE\RF\usart1.h)(0x5B5FFFC1)
 I (..\SOFTWARE\TVOC\kqm2801A.h)(0x5CB98981)
 I (..\SOFTWARE\PM2.5\usart3.h)(0x5AD6BAE2)
+I (..\SOFTWARE\KEY\key.h)(0x5B18AA8A)
 I (..\SOFTWARE\DATA_MAP\data_map.h)(0x5CB830F4)
 F (..\SOFTWARE\CRC8_16\crc8_16.c)(0x5A39D798)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\crc8_16.o --omf_browse .\objects\crc8_16.crf --depend .\objects\crc8_16.d)
 I (..\SOFTWARE\CRC8_16\crc8_16.h)(0x5CB98950)
@@ -1016,7 +1017,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\SOFTWARE\SHT21\sht21.h)(0x5C9EE8E2)
 I (..\SOFTWARE\PM2.5\usart3.h)(0x5AD6BAE2)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-F (..\SOFTWARE\TVOC\kqm2801A.c)(0x5CB832D9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\kqm2801a.o --omf_browse .\objects\kqm2801a.crf --depend .\objects\kqm2801a.d)
+F (..\SOFTWARE\TVOC\kqm2801A.c)(0x5CDCCE36)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SOFTWARE\CMD -I..\SOFTWARE\collect -I..\SOFTWARE\CRC8_16 -I..\SOFTWARE\DATA_MAP -I..\SOFTWARE\IRQ -I..\SOFTWARE\KEY -I..\SOFTWARE\LED -I..\SOFTWARE\PM2.5 -I..\SOFTWARE\RF -I..\SOFTWARE\SHT21 -I..\SOFTWARE\SPG30 -I..\SOFTWARE\STM32FLASH -I..\SOFTWARE\TVOC -I..\SOFTWARE\WDG -I..\STM32LIB\inc -I..\SYSTEM -I..\USER-I F:\´¨~\GitHub\WK_CJQ-V1.2\PROJECT\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\kqm2801a.o --omf_browse .\objects\kqm2801a.crf --depend .\objects\kqm2801a.d)
 I (..\SOFTWARE\TVOC\kqm2801A.h)(0x5CB98981)
 I (..\CORE\stm32f10x.h)(0x5A5C7560)
 I (..\CORE\core_cm3.h)(0x5A5C7560)

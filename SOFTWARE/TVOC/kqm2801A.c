@@ -73,6 +73,10 @@ void Set_Resolution1(void)
 
 
 #include "data_map.h"
+
+
+u8 SGP_STATE=0;
+
 /*********获取TVOC**********/
 
 void Get_TVOC()
@@ -87,7 +91,14 @@ void Get_TVOC()
 	{
 					//旧版TVOC传感器没有数据|没有传感器
 		ret=0;
-		ret=sgp_measure_iaq_blocking_read(&tvoc,&co2);
+		if (SGP_STATE)
+		{
+			ret=sgp_measure_iaq_blocking_read(&tvoc,&co2);
+		}
+		else
+		{
+			ret=1;
+		}
 		if (ret==0)
 		{
 			t.f=tvoc/1000.0;								//改为浮点数2019.3.30

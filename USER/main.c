@@ -17,6 +17,7 @@
 #include "data_map.h"
  
 
+extern u8 SGP_STATE;
 
 
 /*****************************
@@ -26,7 +27,6 @@
 
 int main()
 {
-	u8 sgp_state=0;
 	NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x2800);
 	NVIC_Configuration();
 	data_map_init();
@@ -45,7 +45,7 @@ int main()
 	M1=0;
 	if (sgp_probe()==STATUS_OK)
 	{
-		sgp_state=1;
+		SGP_STATE=1;
 	}
 	
 	IWDG_Init(7,3140); 
@@ -57,11 +57,11 @@ int main()
 		collectdeal();
 		delay_ms(20);
 		deal();
-		if (sgp_state==0)
+		if (SGP_STATE==0)
 		{
 			if (sgp_probe()==STATUS_OK)
 			{
-				sgp_state=1;
+				SGP_STATE=1;
 			}
 		}
 	}

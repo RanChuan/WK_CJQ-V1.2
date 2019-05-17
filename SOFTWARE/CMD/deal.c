@@ -32,7 +32,7 @@ void deal(void)
 		Get_Crc16(recv,length+7,crc);
 		if (crc[0]==recv[length+7]&&crc[1]==recv[length+8])
 		{
-			if ((collectId==((recv[2]<<8)|recv[3]))||(recv[4]>=6&&recv[4]<=8))
+			if ((collectId==((recv[2]<<8)|recv[3]))||(0==((recv[2]<<8)|recv[3])))
 			{
 				switch (recv[4])
 				{

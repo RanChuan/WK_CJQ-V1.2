@@ -7,6 +7,7 @@
 #include "usart1.h"
 #include "kqm2801A.h"
 #include "usart3.h"
+#include "key.h"
 #include "data_map.h"
 
 
@@ -36,12 +37,28 @@ void addressIdinit(void)
 
 void collectdeal(void)
 {
+	u8 err=0;
 	if(time3_count>=5)//每5秒采集一次数据
 	{
 		Get_TempAmdHumi();         //温湿度获取
 		Get_TVOC();
 		get_data();
 		time3_count=0;
+		
+		if ((TempAndHumi[0]==0&&TempAndHumi[1]==0&&TempAndHumi[2]==0&&TempAndHumi[3]==0)&&
+			(TempAndHumi[4]==0)&&(TempAndHumi[5]==0)&&(TempAndHumi[6]==0)&&(TempAndHumi[7]==0))
+		{
+			err++;
+		}
+		if ((TVOCValue[0]==0&&TVOCValue[1]==0)&&(TVOCValue[2]==0&&TVOCValue[3]==0))
+		{
+			err++;
+		}
+		if (err==0)
+		{
+			LED=0;
+		}
+
 	}
 }
 

@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\WK_CJQ_V1_2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\WK_CJQ_V1_2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Fri Apr 19 17:03:34 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Thu May 16 10:46:12 2019
 <BR><P>
 <H3>Maximum Stack Usage =        232 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -649,7 +649,7 @@ Global Symbols
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Return_NEW
 </UL>
 
-<P><STRONG><a name="[6a]"></a>Get_TVOC</STRONG> (Thumb, 264 bytes, Stack size 40 bytes, kqm2801a.o(i.Get_TVOC))
+<P><STRONG><a name="[6a]"></a>Get_TVOC</STRONG> (Thumb, 274 bytes, Stack size 40 bytes, kqm2801a.o(i.Get_TVOC))
 <BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = Get_TVOC &rArr; sgp_measure_iaq_blocking_read &rArr; sgp_run_profile_by_number &rArr; sgp_run_profile &rArr; read_measurement &rArr; sgp_i2c_read_words &rArr; sensirion_i2c_read &rArr; sensirion_i2c_write_byte &rArr; SDA_out &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_ui2f
@@ -1194,7 +1194,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;deal
 </UL>
 
-<P><STRONG><a name="[bb]"></a>collectdeal</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, collect.o(i.collectdeal))
+<P><STRONG><a name="[bb]"></a>collectdeal</STRONG> (Thumb, 120 bytes, Stack size 8 bytes, collect.o(i.collectdeal))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = collectdeal &rArr; Get_TVOC &rArr; sgp_measure_iaq_blocking_read &rArr; sgp_run_profile_by_number &rArr; sgp_run_profile &rArr; read_measurement &rArr; sgp_i2c_read_words &rArr; sensirion_i2c_read &rArr; sensirion_i2c_write_byte &rArr; SDA_out &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_data
@@ -1212,7 +1212,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[be]"></a>deal</STRONG> (Thumb, 200 bytes, Stack size 56 bytes, deal.o(i.deal))
+<P><STRONG><a name="[be]"></a>deal</STRONG> (Thumb, 198 bytes, Stack size 56 bytes, deal.o(i.deal))
 <BR><BR>[Stack]<UL><LI>Max Depth = 204<LI>Call Chain = deal &rArr; cmd_0x04 &rArr; Return_NEW &rArr; Get_Crc16
 </UL>
 <BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RF_GetCmd
@@ -1282,7 +1282,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;collectdeal
 </UL>
 
-<P><STRONG><a name="[4b]"></a>main</STRONG> (Thumb, 134 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[4b]"></a>main</STRONG> (Thumb, 144 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = main &rArr; collectdeal &rArr; Get_TVOC &rArr; sgp_measure_iaq_blocking_read &rArr; sgp_run_profile_by_number &rArr; sgp_run_profile &rArr; read_measurement &rArr; sgp_i2c_read_words &rArr; sensirion_i2c_read &rArr; sensirion_i2c_write_byte &rArr; SDA_out &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;time3_init

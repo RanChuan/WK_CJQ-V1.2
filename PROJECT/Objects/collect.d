@@ -30,4 +30,5 @@
 .\objects\collect.o: ..\SOFTWARE\RF\usart1.h
 .\objects\collect.o: ..\SOFTWARE\TVOC\kqm2801A.h
 .\objects\collect.o: ..\SOFTWARE\PM2.5\usart3.h
+.\objects\collect.o: ..\SOFTWARE\KEY\key.h
 .\objects\collect.o: ..\SOFTWARE\DATA_MAP\data_map.h
